@@ -1,0 +1,70 @@
+<!-- Instructions: The Dorian Gray Portrait Studio charges its customers based on the number of subjects who post for a portrait. The fee schedule is as follows: -->
+
+<!-- 
+
+  Subjects in Portrait        Base Price
+        1                       $100
+        2                       $130
+        3                       $150
+        4                       $165
+        5                       $175
+        6                       $180
+      7 or more                 $185
+
+ -->
+
+<!-- Portrait sittings on Saturday or Sunday cost 20 percent more than the base price. -->
+<!-- Design a flowchart or psuedocode for a program that accepts the following data: the last name of the family sitting for the portrait, the number of subjects in the portrait, and the scheduled day of the week. Display all the input data as well as the calculated sitting fee. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JQUERY -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <title>Dorain Gray Portrait Studio</title>
+</head>
+<body>
+  
+  <div class="container pt-5">
+    <p class="fs-4 mb-4">Dorain Gray Portrait Studio</p>
+    <p class="fs-6 mb-4"></p>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <p class="fs-6 mb-4">Please enter your detail at the bottom</p>
+      </div>
+    </div>
+    <div class="row">
+      
+      <div class="col-12">
+        <label for="fullname" class="form-label">Fullname</label>
+        <input class="form-control mt-2" type="text" id="fullname" aria-label="default input example">
+        <label for="town" class="form-label mt-4">Town of residence</label>
+        <input class="form-control mt-2" type="text" id="town" aria-label="default input example">
+
+        <button type="button" id="submit" class="btn btn-primary mt-4">Submit</button>
+
+        <div class="result mt-4">
+          <div id="carPools">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="./blockDotPrinting.js"></script>
+</body>
+</html>
+
+
